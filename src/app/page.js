@@ -2,13 +2,15 @@ import ImageSlider from "@/components/ImageSlider";
 import Image from "next/image";
 import logo from "/public/logo.png";
 import juara from "/public/juara.png";
+import blog1 from "/public/blog1.jpg";
+import blog2 from "/public/blog2.jpg";
 
 const Page = () => {
   return (
     <div>
       <ImageSlider />
       <section>
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div className="container mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="container relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <Image
@@ -151,9 +153,9 @@ const Page = () => {
           <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
             <li>
               <a href="#" className="group relative block">
-                <img
-                  src="https://images.unsplash.com/photo-1618898909019-010e4e234c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                <Image
                   alt=""
+                  src={juara}
                   className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
                 />
 
@@ -162,8 +164,11 @@ const Page = () => {
                     Casual Trainers
                   </h3>
 
-                  <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
-                    Shop Now
+                  <span
+                    href="/Posts"
+                    className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white"
+                  >
+                    View all
                   </span>
                 </div>
               </a>
@@ -171,9 +176,9 @@ const Page = () => {
 
             <li>
               <a href="#" className="group relative block">
-                <img
-                  src="https://images.unsplash.com/photo-1624623278313-a930126a11c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                <Image
                   alt=""
+                  src={blog1}
                   className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
                 />
 
@@ -183,7 +188,7 @@ const Page = () => {
                   </h3>
 
                   <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
-                    Shop Now
+                    View all
                   </span>
                 </div>
               </a>
@@ -191,9 +196,9 @@ const Page = () => {
 
             <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
               <a href="#" className="group relative block">
-                <img
-                  src="https://images.unsplash.com/photo-1593795899768-947c4929449d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80"
+                <Image
                   alt=""
+                  src={blog2}
                   className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
                 />
 
@@ -203,7 +208,7 @@ const Page = () => {
                   </h3>
 
                   <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
-                    Shop Now
+                    View all
                   </span>
                 </div>
               </a>

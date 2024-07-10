@@ -1,31 +1,52 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import Image from "next/image";
+// src/app/page.js
+import Card from "@/components/Card";
 
 export default function HomePage() {
-  const [posts, setPosts] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    async function fetchPosts() {
-      try {
-        const response = await fetch("http://localhost:3001/posts");
-        const data = await response.json();
-        setPosts(data);
-        setLoading(false);
-      } catch (error) {
-        console.error("Error fetching posts:", error);
-        setLoading(false);
-      }
-    }
-
-    fetchPosts();
-  }, []);
-
-  if (loading) {
-    return <p>Loading...</p>;
-  }
+  const cards = [
+    {
+      id: 1,
+      title: "Card 1",
+      content:
+        "lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw",
+      imageUrl: "/juara.png",
+    },
+    {
+      id: 2,
+      title: "Card 2",
+      content:
+        "This is the second card absolute inset-0 h-full w-full object-cover lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw",
+      imageUrl: "/blog1.jpg",
+    },
+    {
+      id: 3,
+      title: "Card 3",
+      content:
+        "lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw.",
+      imageUrl: "/blog2.jpg",
+    },
+    {
+      id: 4,
+      title: "Card 1",
+      content:
+        "lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw",
+      imageUrl: "/juara.png",
+    },
+    {
+      id: 5,
+      title: "Card 2",
+      content:
+        "This is the second card absolute inset-0 h-full w-full object-cover lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw",
+      imageUrl: "/blog1.jpg",
+    },
+    {
+      id: 6,
+      title: "Card 3",
+      content:
+        "lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw.",
+      imageUrl: "/blog2.jpg",
+    },
+    // Tambahkan lebih banyak kartu jika diperlukan
+  ];
 
   return (
     <div>
@@ -76,27 +97,16 @@ export default function HomePage() {
         </div>
       </header>
       <div className="p-4">
-        <h1 className="text-3xl font-bold mb-4">Posts</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {posts.length > 0 ? (
-            posts.map((post) => (
-              <div key={post.id} className="bg-white shadow-md rounded-lg p-4">
-                <h2 className="text-xl font-semibold mb-2">{post.title}</h2>
-                <p className="text-gray-700 mb-4">{post.content}</p>
-                <div className="relative h-48">
-                  <Image
-                    src={post.imageUrl}
-                    alt={post.title}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-lg"
-                  />
-                </div>
-              </div>
-            ))
-          ) : (
-            <p>No posts available</p>
-          )}
+        <h1 className="text-3xl font-bold mb-4">Blog</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
+          {cards.map((card) => (
+            <Card
+              key={card.id}
+              title={card.title}
+              content={card.content}
+              imageUrl={card.imageUrl}
+            />
+          ))}
         </div>
       </div>
     </div>

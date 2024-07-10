@@ -64,31 +64,34 @@ const Navbar = () => {
             </nav>
           </div>
 
+          {/* Mobile Menu Toggle Button */}
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
               <a
                 href="/Shop"
-                className="inline-flex items-center justify-center gap-1.5 rounded-lg border border-gray-200 bg-white hover:bg-green-800 px-5 py-3 text-green-600 transition hover:text-white focus:outline-none focus:ring"
+                className="container inline-flex items-center justify-center gap-1.5 rounded-lg bg-white hover:bg-green-800 px-3 py-2 text-green-600 transition hover:text-white focus:outline-none focus:ring"
                 type="button"
+                style={{ fontSize: "0.875rem" }} // Penyesuaian ukuran font
               >
                 <span className="text-sm font-medium"> View Merchandise </span>
 
                 <svg
-                  class="h-5 w-5 text-green-600"
+                  className="h-4 w-4 text-green-600"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
                   />
                 </svg>
               </a>
             </div>
 
+            {/* Mobile Menu Toggle Button */}
             <div className="block md:hidden">
               <button
                 onClick={toggleMobileMenu}
@@ -113,6 +116,7 @@ const Navbar = () => {
           </div>
         </div>
 
+        {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden">
             <nav aria-label="Global">
