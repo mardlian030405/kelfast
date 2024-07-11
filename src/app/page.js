@@ -10,7 +10,7 @@ const Page = () => {
     <div>
       <ImageSlider />
       <section>
-        <div className="container mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="container relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <Image
@@ -71,7 +71,7 @@ const Page = () => {
             <div className="lg:col-span-2 lg:py-8">
               <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2">
                 <li>
-                  <a href="#" className="group relative block bg-transparent">
+                  <a className="group relative block bg-transparent">
                     <Image
                       alt=""
                       src={juara}
@@ -102,7 +102,7 @@ const Page = () => {
                 </li>
 
                 <li>
-                  <a href="#" className="group relative block ">
+                  <a className="group relative block ">
                     <Image
                       alt=""
                       src={juara}
@@ -152,7 +152,7 @@ const Page = () => {
 
           <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
             <li>
-              <a href="#" className="group relative block">
+              <a href="/Posts" className="group relative block">
                 <Image
                   alt=""
                   src={juara}
@@ -164,10 +164,7 @@ const Page = () => {
                     Casual Trainers
                   </h3>
 
-                  <span
-                    href="/Posts"
-                    className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white"
-                  >
+                  <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                     View all
                   </span>
                 </div>
@@ -175,7 +172,7 @@ const Page = () => {
             </li>
 
             <li>
-              <a href="#" className="group relative block">
+              <a href="/Posts" className="group relative block">
                 <Image
                   alt=""
                   src={blog1}
@@ -195,7 +192,7 @@ const Page = () => {
             </li>
 
             <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-              <a href="#" className="group relative block">
+              <a href="/Posts" className="group relative block">
                 <Image
                   alt=""
                   src={blog2}

@@ -1,4 +1,5 @@
 "use client";
+
 const Shop = () => {
   const handleAddToCart = () => {
     const productName = "Robot Toy";

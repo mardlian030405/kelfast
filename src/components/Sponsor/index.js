@@ -2,7 +2,10 @@ import React from "react";
 import Image from "next/image";
 import sponsor1 from "/public/sponsor 1.png";
 import sponsor2 from "/public/sponsor 2.png";
-import sponsor3 from "/public/sponsorv5.png";
+import sponsor3 from "/public/sponsor5.png";
+import sponsor4 from "/public/sponsor6.png";
+import sponsor5 from "/public/sponsor7.png";
+import sponsor6 from "/public/sponsor8.png";
 const Sponsor = () => {
   return (
     <div>
@@ -41,6 +44,29 @@ const Sponsor = () => {
               <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
                 <Image
                   src={sponsor3}
+                  alt={`BANNER`}
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
+              <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
+                <Image
+                  src={sponsor4}
+                  alt={`BANNER`}
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
+
+              <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
+                <Image
+                  src={sponsor5}
+                  alt={`BANNER`}
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
+
+              <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
+                <Image
+                  src={sponsor6}
                   alt={`BANNER`}
                   style={{ width: "100%", height: "auto" }}
                 />
