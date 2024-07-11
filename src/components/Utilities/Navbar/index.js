@@ -73,7 +73,10 @@ const Navbar = () => {
                 type="button"
                 style={{ fontSize: "0.875rem" }} // Penyesuaian ukuran font
               >
-                <span className="text-sm font-medium"> View Merchandise </span>
+                <span className="text-sm font-medium hidden sm:flex">
+                  {" "}
+                  View Merchandise{" "}
+                </span>
 
                 <svg
                   className="h-4 w-4 text-green-600"
