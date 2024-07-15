@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import store from "/public/store.png";
 
 const Shop = () => {
   const handleAddToCart = () => {
@@ -6,7 +8,7 @@ const Shop = () => {
     const productPrice = "$14.99";
     const message = `Hello, I would like to order the following item:\n\nProduct: ${productName}\nPrice: ${productPrice}`;
 
-    const whatsappUrl = `https://wa.me/85791635708?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/6285791635708?text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappUrl, "_blank");
@@ -88,8 +90,8 @@ const Shop = () => {
               <ul className="grid grid-cols-2 gap-4">
                 <li>
                   <a href="#" className="group block">
-                    <img
-                      src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80"
+                    <Image
+                      src={store}
                       alt=""
                       className="aspect-square w-full rounded object-cover"
                     />
@@ -106,8 +108,8 @@ const Shop = () => {
 
                 <li>
                   <a href="#" className="group block">
-                    <img
-                      src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80"
+                    <Image
+                      src={store}
                       alt=""
                       className="aspect-square w-full rounded object-cover"
                     />
@@ -146,10 +148,10 @@ const Shop = () => {
                 Save 10%
               </span>
 
-              <img
-                src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
+              <Image
+                src={store}
                 alt=""
-                className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                className="aspect-square w-full rounded object-cover"
               />
 
               <div className="relative border border-gray-100 bg-white p-6">
@@ -159,10 +161,10 @@ const Shop = () => {
                 </span>
 
                 <h3 className="mt-4 text-lg font-medium text-gray-900">
-                  Robot Toy
+                  Coming Soon
                 </h3>
 
-                <p className="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <p className="mt-1.5 text-sm text-gray-700">Rp.0</p>
 
                 <form className="mt-4">
                   <button
@@ -179,10 +181,10 @@ const Shop = () => {
                 Save 10%
               </span>
 
-              <img
-                src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
+              <Image
+                src={store}
                 alt=""
-                className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                className="aspect-square w-full rounded object-cover"
               />
 
               <div className="relative border border-gray-100 bg-white p-6">
@@ -192,10 +194,10 @@ const Shop = () => {
                 </span>
 
                 <h3 className="mt-4 text-lg font-medium text-gray-900">
-                  Robot Toy
+                  Coming Soon
                 </h3>
 
-                <p className="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <p className="mt-1.5 text-sm text-gray-700">Rp.0</p>
 
                 <form className="mt-4">
                   <button
@@ -212,10 +214,10 @@ const Shop = () => {
                 Save 10%
               </span>
 
-              <img
-                src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
+              <Image
+                src={store}
                 alt=""
-                className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                className="aspect-square w-full rounded object-cover"
               />
 
               <div className="relative border border-gray-100 bg-white p-6">
@@ -225,10 +227,10 @@ const Shop = () => {
                 </span>
 
                 <h3 className="mt-4 text-lg font-medium text-gray-900">
-                  Robot Toy
+                  Coming Soon
                 </h3>
 
-                <p className="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <p className="mt-1.5 text-sm text-gray-700">Rp.0</p>
 
                 <form className="mt-4">
                   <button
@@ -245,10 +247,10 @@ const Shop = () => {
                 Save 10%
               </span>
 
-              <img
-                src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
+              <Image
+                src={store}
                 alt=""
-                className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                className="aspect-square w-full rounded object-cover"
               />
 
               <div className="relative border border-gray-100 bg-white p-6">
@@ -258,10 +260,10 @@ const Shop = () => {
                 </span>
 
                 <h3 className="mt-4 text-lg font-medium text-gray-900">
-                  Robot Toy
+                  Coming soon
                 </h3>
 
-                <p className="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <p className="mt-1.5 text-sm text-gray-700">Rp.0</p>
 
                 <form className="mt-4">
                   <button

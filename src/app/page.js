@@ -160,9 +160,7 @@ const Page = () => {
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <h3 className="text-xl font-medium text-white">
-                    Casual Trainers
-                  </h3>
+                  <h3 className="text-xl font-medium text-white">Kelfast</h3>
 
                   <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                     View all
@@ -180,9 +178,7 @@ const Page = () => {
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <h3 className="text-xl font-medium text-white">
-                    Winter Jumpers
-                  </h3>
+                  <h3 className="text-xl font-medium text-white">kelfast</h3>
 
                   <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                     View all
@@ -200,9 +196,7 @@ const Page = () => {
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                  <h3 className="text-xl font-medium text-white">
-                    Skinny Jeans Blue
-                  </h3>
+                  <h3 className="text-xl font-medium text-white">kelfast</h3>
 
                   <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                     View all

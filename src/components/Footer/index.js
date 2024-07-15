@@ -10,7 +10,6 @@ const Footer = () => {
             <Image src={logo} alt="Logo" className="h-20 w-28 mr-1" />
             <span className="text-xl font-semibold">KELFAST FC</span>
           </div>
-
           <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-white">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
             consequuntur amet culpa cum itaque neque.

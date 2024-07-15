@@ -27,7 +27,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-white transition hover:text-white"
-                    href="#"
+                    href="/About"
                   >
                     {" "}
                     About{" "}

@@ -6,6 +6,7 @@ import sponsor3 from "/public/sponsor5.png";
 import sponsor4 from "/public/sponsor6.png";
 import sponsor5 from "/public/sponsor7.png";
 import sponsor6 from "/public/sponsor8.png";
+import sponsor7 from "/public/Sponsor9.png";
 const Sponsor = () => {
   return (
     <div>
@@ -35,7 +36,7 @@ const Sponsor = () => {
 
               <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
                 <Image
-                  src={sponsor2}
+                  src={sponsor7}
                   alt={`BANNER`}
                   style={{ width: "100%", height: "auto" }}
                 />
@@ -63,10 +64,16 @@ const Sponsor = () => {
                   style={{ width: "100%", height: "auto" }}
                 />
               </div>
-
               <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
                 <Image
                   src={sponsor6}
+                  alt={`BANNER`}
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
+              <div className="flex flex-col rounded-lg bg-white px-4 py-8 items-center">
+                <Image
+                  src={sponsor2}
                   alt={`BANNER`}
                   style={{ width: "100%", height: "auto" }}
                 />
