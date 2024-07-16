@@ -9,8 +9,8 @@ const Page = () => {
   return (
     <div>
       <ImageSlider />
-      <section>
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+      <section className="bg-gray-700">
+        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 sm:py-12 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="container relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <Image
@@ -22,11 +22,11 @@ const Page = () => {
             </div>
 
             <div className="lg:py-24">
-              <h2 className="text-3xl font-bold sm:text-4xl">
+              <h2 className="text-3xl text-white font-bold sm:text-4xl">
                 Grow your audience
               </h2>
 
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-white">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
                 qui hic atque tenetur quis eius quos ea neque sunt, accusantium
                 soluta minus veniam tempora deserunt? Molestiae eius quidem quam
@@ -35,7 +35,7 @@ const Page = () => {
 
               <a
                 href="#"
-                className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                className="mt-8 inline-block rounded bg-white px-12 py-3 text-sm font-medium text-green-800 transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 View All
               </a>
@@ -43,7 +43,7 @@ const Page = () => {
           </div>
         </div>
       </section>
-      <section className="bg-green-800">
+      <section className="bg-blue-dark">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
             <div className="grid place-content-center rounded bg-gray-200 p-6 sm:p-8">
@@ -71,7 +71,7 @@ const Page = () => {
             <div className="lg:col-span-2 lg:py-8">
               <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2">
                 <li>
-                  <a className="group relative block bg-transparent">
+                  <a className="group relative block bg-black">
                     <Image
                       alt=""
                       src={juara}
@@ -102,7 +102,7 @@ const Page = () => {
                 </li>
 
                 <li>
-                  <a className="group relative block ">
+                  <a className="group relative block bg-black ">
                     <Image
                       alt=""
                       src={juara}

@@ -65,10 +65,7 @@ const Squad = () => {
                   </p>
                 </header>
 
-                <a
-                  href="#"
-                  className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring"
-                >
+                <a className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring">
                   View All
                 </a>
               </div>
@@ -77,7 +74,7 @@ const Squad = () => {
             <div className="lg:col-span-2 lg:py-8">
               <ul className="grid grid-cols-2 gap-4">
                 <li>
-                  <a href="#" className="group relative block bg-black">
+                  <a className="group relative block bg-black">
                     <img
                       alt=""
                       src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
@@ -101,7 +98,7 @@ const Squad = () => {
                 </li>
 
                 <li>
-                  <a href="#" className="group relative block bg-black">
+                  <a className="group relative block bg-black">
                     <img
                       alt=""
                       src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
@@ -145,7 +142,7 @@ const Squad = () => {
                 </header>
 
                 <a
-                  href="#"
+                  href=""
                   className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring"
                 >
                   View All
@@ -156,7 +153,7 @@ const Squad = () => {
             <div className="lg:col-span-2 lg:py-8">
               <ul className="grid grid-cols-2 gap-4">
                 <li>
-                  <a href="#" className="group relative block bg-black">
+                  <a className="group relative block bg-black">
                     <img
                       alt=""
                       src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
@@ -165,7 +162,7 @@ const Squad = () => {
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
                       <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
-                        Goalkeeper
+                        Anchor
                       </p>
 
                       <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -180,7 +177,7 @@ const Squad = () => {
                 </li>
 
                 <li>
-                  <a href="#" className="group relative block bg-black">
+                  <a className="group relative block bg-black">
                     <img
                       alt=""
                       src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
@@ -189,7 +186,7 @@ const Squad = () => {
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
                       <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
-                        Goalkeeper
+                        Anchor
                       </p>
 
                       <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -223,10 +220,7 @@ const Squad = () => {
                   </p>
                 </header>
 
-                <a
-                  href="#"
-                  className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring"
-                >
+                <a className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring">
                   View All
                 </a>
               </div>
@@ -235,7 +229,7 @@ const Squad = () => {
             <div className="lg:col-span-2 lg:py-8">
               <ul className="grid grid-cols-2 gap-4">
                 <li>
-                  <a href="#" className="group relative block bg-black">
+                  <a className="group relative block bg-black">
                     <img
                       alt=""
                       src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
@@ -244,7 +238,7 @@ const Squad = () => {
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
                       <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
-                        Goalkeeper
+                        Flank
                       </p>
 
                       <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -259,7 +253,7 @@ const Squad = () => {
                 </li>
 
                 <li>
-                  <a href="#" className="group relative block bg-black">
+                  <a className="group relative block bg-black">
                     <img
                       alt=""
                       src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
@@ -268,7 +262,7 @@ const Squad = () => {
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
                       <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
-                        Goalkeeper
+                        Flank
                       </p>
 
                       <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -302,10 +296,7 @@ const Squad = () => {
                   </p>
                 </header>
 
-                <a
-                  href="#"
-                  className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring"
-                >
+                <a className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring">
                   View All
                 </a>
               </div>
@@ -314,7 +305,7 @@ const Squad = () => {
             <div className="lg:col-span-2 lg:py-8">
               <ul className="grid grid-cols-2 gap-4">
                 <li>
-                  <a href="#" className="group relative block bg-black">
+                  <a className="group relative block bg-black">
                     <img
                       alt=""
                       src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
@@ -323,7 +314,7 @@ const Squad = () => {
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
                       <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
-                        Goalkeeper
+                        Pivot
                       </p>
 
                       <div className="mt-32 sm:mt-48 lg:mt-64">
@@ -338,7 +329,7 @@ const Squad = () => {
                 </li>
 
                 <li>
-                  <a href="#" className="group relative block bg-black">
+                  <a className="group relative block bg-black">
                     <img
                       alt=""
                       src="https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80"
@@ -347,7 +338,7 @@ const Squad = () => {
 
                     <div className="relative p-4 sm:p-6 lg:p-8">
                       <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
-                        Goalkeeper
+                        Pivot
                       </p>
 
                       <div className="mt-32 sm:mt-48 lg:mt-64">

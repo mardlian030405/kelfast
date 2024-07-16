@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-green-800 fixed top-0 left-0 right-0 z-50 shadow-md">
+    <header className="bg-blue-dark fixed top-0 left-0 right-0 z-50 shadow-md">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
@@ -69,7 +69,7 @@ const Navbar = () => {
             <div className="sm:flex sm:gap-4">
               <a
                 href="/Shop"
-                className="container inline-flex items-center justify-center gap-1.5 rounded-lg bg-white hover:bg-green-800 px-3 py-2 text-green-600 transition hover:text-white focus:outline-none focus:ring"
+                className="container inline-flex items-center justify-center gap-1.5 rounded-lg bg-white hover:bg-blue-dark px-3 py-2 text-blue-dark transition hover:text-white focus:outline-none focus:ring"
                 type="button"
                 style={{ fontSize: "0.875rem" }} // Penyesuaian ukuran font
               >
@@ -79,7 +79,7 @@ const Navbar = () => {
                 </span>
 
                 <svg
-                  className="h-4 w-4 text-green-600"
+                  className="h-4 w-4 text-blue-dark hover:text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -127,7 +127,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="block text-white transition hover:text-white"
-                    href="#"
+                    href="/About"
                   >
                     {" "}
                     ABOUT{" "}

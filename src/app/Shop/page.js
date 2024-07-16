@@ -4,9 +4,9 @@ import store from "/public/store.png";
 
 const Shop = () => {
   const handleAddToCart = () => {
-    const productName = "Robot Toy";
-    const productPrice = "$14.99";
-    const message = `Hello, I would like to order the following item:\n\nProduct: ${productName}\nPrice: ${productPrice}`;
+    const productName = "Merchant 1";
+    const productPrice = "Rp.0";
+    const message = `Apakah merchandise ini ready kak ? :\n\nProduk: ${productName}\nHarga: ${productPrice}`;
 
     const whatsappUrl = `https://wa.me/6285791635708?text=${encodeURIComponent(
       message
@@ -15,16 +15,16 @@ const Shop = () => {
   };
   return (
     <div>
-      <header className="bg-gray-50 pt-20">
+      <header className="bg-blue-dark pt-20">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="text-center sm:text-left">
-              <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
-                Welcome Back, Barry!
+              <h1 className="text-2xl font-bold text-white sm:text-3xl">
+                OFFICIAL MERCHANDISE KELFAST FC
               </h1>
 
-              <p className="mt-1.5 text-sm text-gray-500">
-                Let's write a new blog post! 🎉
+              <p className="mt-1.5 text-sm text-white">
+                Monggo silakan di pesan official merchandise kelfast
               </p>
             </div>
 
@@ -52,7 +52,7 @@ const Shop = () => {
               </button>
 
               <button
-                className="block rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                className="block rounded-lg bg-green-800 px-5 py-3 text-sm font-medium border-white text-white transition hover:bg-white  hover:text-green-800 focus:outline-none focus:ring"
                 type="button"
               >
                 Create Post

@@ -10,7 +10,6 @@ import banner2 from "/public/banner2.png";
 
 const ImageSlider = () => {
   const settings = {
-    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -19,8 +18,8 @@ const ImageSlider = () => {
   };
 
   return (
-    <div>
-      <div className="max-w-max pt-8 my-8">
+    <div className="bg-blue-dark">
+      <div className="container max-w-max pt-8 mt-5">
         <Slider {...settings}>
           <div>
             <Image
