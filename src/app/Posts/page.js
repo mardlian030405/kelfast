@@ -52,15 +52,15 @@ export default function HomePage() {
 
   return (
     <div>
-      <header className="bg-gray-50 pt-20">
+      <header className="bg-blue-dark pt-20">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="text-center sm:text-left">
-              <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
+              <h1 className="text-2xl font-bold text-white sm:text-3xl">
                 Blog
               </h1>
 
-              <p className="mt-1.5 text-sm text-gray-500">
+              <p className="mt-1.5 text-sm text-white">
                 Berita tentang kelfast fc
               </p>
             </div>
@@ -89,12 +89,10 @@ export default function HomePage() {
               </button>
 
               <button
-                className="block rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                className="block rounded-lg bg-white px-5 py-3 text-sm font-medium border-yellow-500 text-blue-dark transition hover:bg-blue-dark  hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
                 type="button"
               >
-                <a href="/Squad" className="group relative block">
-                  Line Up
-                </a>
+                SHOP NOW
               </button>
             </div>
           </div>

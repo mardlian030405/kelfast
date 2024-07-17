@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
             <a
               className="inline-block rounded-full bg-white p-2 text-green-800 shadow transition hover:bg-teal-500 sm:p-3 lg:p-4"
-              href="#MainContent"
+              href="/#"
             >
               <span className="sr-only">Back to top</span>
 
@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="lg:flex lg:items-end lg:justify-between">
             <div>
               <div className="flex items-center justify-center text-white lg:justify-start">
-                <div className="relative w-20 h-20 mr-1">
+                <div className="relative w-32 h-32 mr-0">
                   <Image
                     src={logo} // Ganti dengan path gambar Anda
                     alt="Logo"
@@ -39,7 +39,10 @@ const Footer = () => {
                     objectFit="contain"
                   />
                 </div>
-                <h2 className="text-2xl font-bold">KELFAST FC</h2>
+                <div className="flex-col">
+                  <h1 className="text-3xl font-bold">KELFAST</h1>
+                  <h2 className="text-xl font-bold">FUTSAL CLUB</h2>
+                </div>
               </div>
 
               <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-white lg:text-left">
@@ -170,7 +173,7 @@ const Footer = () => {
                   href="#"
                 >
                   {" "}
-                  Services{" "}
+                  Store{" "}
                 </a>
               </li>
 
@@ -180,7 +183,7 @@ const Footer = () => {
                   href="#"
                 >
                   {" "}
-                  Projects{" "}
+                  Squad{" "}
                 </a>
               </li>
 
@@ -197,7 +200,7 @@ const Footer = () => {
           </div>
 
           <p className="mt-12 text-center text-sm text-white lg:text-right">
-            Copyright &copy; 2022. All rights reserved.
+            Kelfast &copy; 2024. All rights reserved.
           </p>
         </div>
       </footer>

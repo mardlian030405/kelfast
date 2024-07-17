@@ -18,16 +18,16 @@ const About = () => {
               />
             </div>
 
-            <div className="lg:py-24">
-              <h2 className="text-3xl font-bold sm:text-4xl text-white">
+            <div className="lg:py-24 max-sm:pt-10">
+              <h2 className="text-2xl font-bold sm:text-3xl text-white">
                 PROFESSIONAL FUTSAL TEAM
               </h2>
 
-              <h2 className="text-3xl font-bold sm:text-4xl text-white">
+              <h2 className="text-2xl font-bold sm:text-4xl text-white">
                 KELFAST FC
               </h2>
 
-              <p className="mt-4 text-white">
+              <p className="mt-4 text-xl text-white">
                 OFFICIAL PARTNERS SAMPEYAN GROUP
               </p>
 
@@ -41,13 +41,13 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="bg-gray-600">
+      <section className="bg-orange-700">
         <h2 className="text-3xl font-bold pt-12 text-center text-white sm:text-4xl">
-          Tentang KELFAST FC
+          History KELFAST FC
         </h2>
         <div className="flex mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+            <div className="relative bg-white rounded-3xl h-64 overflow-hidden sm:h-80 lg:h-full">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
                 src={logo}
@@ -60,7 +60,7 @@ const About = () => {
               <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
               <div className="space-y-4">
                 <details
-                  className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+                  className="group border-s-4 border-blue-dark bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
                   open
                 >
                   <summary className="flex cursor-pointer items-center justify-between gap-1.5">
@@ -92,7 +92,7 @@ const About = () => {
                   </p>
                 </details>
 
-                <details className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+                <details className="group border-s-4 border-blue-dark bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
                   <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                     <h2 className="text-lg font-medium text-gray-900">
                       Lorem ipsum dolor sit amet consectetur adipisicing?
@@ -122,7 +122,7 @@ const About = () => {
                   </p>
                 </details>
 
-                <details className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+                <details className="group border-s-4 border-blue-dark bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
                   <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                     <h2 className="text-lg font-medium text-gray-900">
                       Lorem ipsum dolor sit amet consectetur adipisicing?

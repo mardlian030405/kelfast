@@ -19,7 +19,7 @@ const ImageSlider = () => {
 
   return (
     <div className="bg-blue-dark">
-      <div className="container max-w-max pt-8 mt-5">
+      <div className="container max-w-max max-sm:pt-10 mt-5">
         <Slider {...settings}>
           <div>
             <Image

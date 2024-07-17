@@ -9,130 +9,53 @@ const Page = () => {
   return (
     <div>
       <ImageSlider />
-      <section className="bg-gray-700">
-        <div className="mx-auto max-w-screen-xl px-4 sm:px-6 sm:py-12 lg:px-8">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div className="container relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-              <Image
-                className="absolute inset-0 h-full w-full object-cover"
-                src={logo}
-                alt={`logo`}
-                style={{ width: "100%", height: "auto" }}
-              />
-            </div>
 
-            <div className="lg:py-24">
-              <h2 className="text-3xl text-white font-bold sm:text-4xl">
-                Grow your audience
-              </h2>
-
-              <p className="mt-4 text-white">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                qui hic atque tenetur quis eius quos ea neque sunt, accusantium
-                soluta minus veniam tempora deserunt? Molestiae eius quidem quam
-                repellat.
-              </p>
-
-              <a
-                href="#"
-                className="mt-8 inline-block rounded bg-white px-12 py-3 text-sm font-medium text-green-800 transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
-              >
-                View All
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="bg-blue-dark">
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-            <div className="grid place-content-center rounded bg-gray-200 p-6 sm:p-8">
-              <div className="mx-auto max-w-md text-center lg:text-left">
-                <header>
-                  <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-                    CHAMPIONS
-                  </h2>
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 max-sm:py-12 lg:px-8">
+          <header className="text-center">
+            <h2 className="lg:text-7xl font-bold text-white text-4xl font-serif">
+              CHAMPIONS
+            </h2>
+          </header>
 
-                  <p className="mt-4 text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Quas rerum quam amet provident nulla error!
-                  </p>
-                </header>
+          <div className="lg:col-span-2 lg:py-8 max-sm:pt-10">
+            <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+              <a href="/Posts" className="group relative block">
+                <article className="group">
+                  <Image
+                    alt=""
+                    src={juara}
+                    className="h-full w-full rounded-xl object-cover shadow-xl"
+                  />
+                  <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
+                    <h3 className="text-xl font-bold text-white">
+                      KELFAST U23
+                    </h3>
+                    <h3 className="text-2xl font-bold text-white">
+                      2nd RESPATI CUP
+                    </h3>
+                  </div>
+                </article>
+              </a>
 
-                <a
-                  href="#"
-                  className="mt-8 inline-block rounded border border-gray-900 bg-gray-900 px-12 py-3 text-sm font-medium text-white transition hover:shadow focus:outline-none focus:ring"
-                >
-                  View All
-                </a>
-              </div>
-            </div>
-
-            <div className="lg:col-span-2 lg:py-8">
-              <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-                <li>
-                  <a className="group relative block bg-black">
-                    <Image
-                      alt=""
-                      src={juara}
-                      className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-                    />
-
-                    <div className="relative p-4 sm:p-6 lg:p-8">
-                      <p className="text-xl font-medium uppercase tracking-widest text-white">
-                        RESPATI CUP
-                      </p>
-
-                      <p className="text-xl font-bold text-white sm:text-2xl">
-                        2nd
-                      </p>
-
-                      <div className="mt-32 sm:mt-48 lg:mt-64">
-                        <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                          <p className="text-sm text-white">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Omnis perferendis hic asperiores quibusdam
-                            quidem voluptates doloremque reiciendis nostrum
-                            harum. Repudiandae?
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-
-                <li>
-                  <a className="group relative block bg-black ">
-                    <Image
-                      alt=""
-                      src={juara}
-                      className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-                    />
-
-                    <div className="relative p-4 sm:p-6 lg:p-8">
-                      <p className="text-xl font-bold uppercase tracking-widest text-white">
-                        Heatless CUP
-                      </p>
-
-                      <p className="text-xl font-bold text-white sm:text-2xl">
-                        3rd
-                      </p>
-
-                      <div className="mt-32 sm:mt-48 lg:mt-64">
-                        <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                          <p className="text-sm text-white">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Omnis perferendis hic asperiores quibusdam
-                            quidem voluptates doloremque reiciendis nostrum
-                            harum. Repudiandae?
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <a href="/Posts" className="group relative block">
+                <article className="group">
+                  <Image
+                    alt=""
+                    src={juara}
+                    className="h-full w-full rounded-xl object-cover shadow-xl"
+                  />
+                  <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
+                    <h3 className="text-xl font-bold text-white">
+                      KELFAST U23
+                    </h3>
+                    <h3 className="text-2xl font-bold text-white">
+                      3rd Heatless CUP
+                    </h3>
+                  </div>
+                </article>
+              </a>
+            </ul>
           </div>
         </div>
       </section>
@@ -142,12 +65,6 @@ const Page = () => {
             <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
               New Collection
             </h2>
-
-            <p className="mx-auto mt-4 max-w-md text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-              praesentium cumque iure dicta incidunt est ipsam, officia dolor
-              fugit natus?
-            </p>
           </header>
 
           <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">

@@ -52,10 +52,10 @@ const Shop = () => {
               </button>
 
               <button
-                className="block rounded-lg bg-green-800 px-5 py-3 text-sm font-medium border-white text-white transition hover:bg-white  hover:text-green-800 focus:outline-none focus:ring"
+                className="block rounded-lg bg-white px-5 py-3 text-sm font-medium border-yellow-500 text-blue-dark transition hover:bg-blue-dark  hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
                 type="button"
               >
-                Create Post
+                SHOP NOW
               </button>
             </div>
           </div>
@@ -98,10 +98,10 @@ const Shop = () => {
 
                     <div className="mt-3">
                       <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
-                        Simple Watch
+                        Coming Soon
                       </h3>
 
-                      <p className="mt-1 text-sm text-gray-700">$150</p>
+                      <p className="mt-1 text-sm text-gray-700">Rp.0</p>
                     </div>
                   </a>
                 </li>
@@ -116,10 +116,10 @@ const Shop = () => {
 
                     <div className="mt-3">
                       <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
-                        Simple Watch
+                        Coming Soon
                       </h3>
 
-                      <p className="mt-1 text-sm text-gray-700">$150</p>
+                      <p className="mt-1 text-sm text-gray-700">Rp.0</p>
                     </div>
                   </a>
                 </li>
