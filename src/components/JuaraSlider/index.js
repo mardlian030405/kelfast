@@ -5,6 +5,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "@/app/globals.css";
 
 const SimpleSlider = () => {
   const settings = {
@@ -23,21 +24,21 @@ const SimpleSlider = () => {
         <Slider {...settings}>
           <div>
             <Image
-              className="rounded block w-full h-96 max-sm:h-auto"
+              className="rounded img block w-full max-sm:h-auto"
               src={juara}
               alt={`BANNER`}
             />
           </div>
           <div>
             <Image
-              className="rounded block w-full h-96 max-sm:h-auto"
+              className="rounded img block w-full max-sm:h-auto"
               src={juara}
               alt={`BANNER`}
             />
           </div>
           <div>
             <Image
-              className="rounded block w-full h-96 max-sm:h-auto"
+              className="rounded img block w-full max-sm:h-auto"
               src={juara}
               alt={`BANNER`}
             />

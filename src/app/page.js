@@ -9,6 +9,33 @@ const Page = () => {
   return (
     <div>
       <ImageSlider />
+      <section className="bg-blue-light">
+        <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-1/2 lg:items-center">
+          <div className="mx-auto max-w-xl text-center">
+            <h1 className="text-3xl text-white font-extrabold sm:text-5xl">
+              Understand User Flow.
+              <strong className="font-extrabold text-yellow-400 sm:block">
+                {" "}
+                Increase Conversion.{" "}
+              </strong>
+            </h1>
+
+            <p className="mt-4 sm:text-xl/relaxed text-white">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+              illo tenetur fuga ducimus numquam ea!
+            </p>
+
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
+              <a
+                className="block w-full rounded items-center bg-white px-12 py-3 text-sm font-medium text-blue-light shadow hover:bg-blue-light hover:text-white focus:outline-none focus:ring  focus:ring-yellow-400  sm:w-auto"
+                href="#"
+              >
+                Get Started
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="bg-blue-dark">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 max-sm:py-12 lg:px-8">

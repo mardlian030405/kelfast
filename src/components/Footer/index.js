@@ -49,7 +49,7 @@ const Footer = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Incidunt consequuntur amet culpa cum itaque neque.
               </p>
-              <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+              <ul className="mt-8 flex justify-center gap-6 lg:justify-start max-sm:justify-center md:gap-8">
                 <li>
                   <a
                     href="#"
