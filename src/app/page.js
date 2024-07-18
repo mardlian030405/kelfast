@@ -1,6 +1,6 @@
 import ImageSlider from "@/components/ImageSlider";
+import JuaraSlider from "@/components/JuaraSlider";
 import Image from "next/image";
-import logo from "/public/logo.png";
 import juara from "/public/juara.png";
 import blog1 from "/public/blog1.jpg";
 import blog2 from "/public/blog2.jpg";
@@ -17,46 +17,7 @@ const Page = () => {
               CHAMPIONS
             </h2>
           </header>
-
-          <div className="lg:col-span-2 lg:py-8 max-sm:pt-10">
-            <ul className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-              <a href="/Posts" className="group relative block">
-                <article className="group">
-                  <Image
-                    alt=""
-                    src={juara}
-                    className="h-full w-full rounded-xl object-cover shadow-xl"
-                  />
-                  <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                    <h3 className="text-xl font-bold text-white">
-                      KELFAST U23
-                    </h3>
-                    <h3 className="text-2xl font-bold text-white">
-                      2nd RESPATI CUP
-                    </h3>
-                  </div>
-                </article>
-              </a>
-
-              <a href="/Posts" className="group relative block">
-                <article className="group">
-                  <Image
-                    alt=""
-                    src={juara}
-                    className="h-full w-full rounded-xl object-cover shadow-xl"
-                  />
-                  <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                    <h3 className="text-xl font-bold text-white">
-                      KELFAST U23
-                    </h3>
-                    <h3 className="text-2xl font-bold text-white">
-                      3rd Heatless CUP
-                    </h3>
-                  </div>
-                </article>
-              </a>
-            </ul>
-          </div>
+          <JuaraSlider />
         </div>
       </section>
       <section>

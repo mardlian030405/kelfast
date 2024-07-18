@@ -1,15 +1,15 @@
 "use client";
+import Image from "next/image";
+import juara from "/public/juara.png";
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image from "next/image";
-import banner from "/public/banner.png";
-import banner1 from "/public/banner1.png";
-import banner2 from "/public/banner2.png";
 
-const ImageSlider = () => {
+const SimpleSlider = () => {
   const settings = {
+    dots: true,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -23,26 +23,23 @@ const ImageSlider = () => {
         <Slider {...settings}>
           <div>
             <Image
-              className="block"
-              src={banner}
+              className="rounded block w-full h-96 max-sm:h-auto"
+              src={juara}
               alt={`BANNER`}
-              style={{ width: "100%", height: "auto" }}
             />
           </div>
           <div>
             <Image
-              className="block"
-              src={banner1}
+              className="rounded block w-full h-96 max-sm:h-auto"
+              src={juara}
               alt={`BANNER`}
-              style={{ width: "100%", height: "auto" }}
             />
           </div>
           <div>
             <Image
-              className="block"
-              src={banner2}
+              className="rounded block w-full h-96 max-sm:h-auto"
+              src={juara}
               alt={`BANNER`}
-              style={{ width: "100%", height: "auto" }}
             />
           </div>
         </Slider>
@@ -51,4 +48,4 @@ const ImageSlider = () => {
   );
 };
 
-export default ImageSlider;
+export default SimpleSlider;
