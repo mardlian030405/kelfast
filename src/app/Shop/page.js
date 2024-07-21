@@ -55,7 +55,7 @@ const Shop = () => {
                 className="block rounded-lg bg-white px-5 py-3 text-sm font-medium border-yellow-500 text-blue-dark transition hover:bg-blue-dark  hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
                 type="button"
               >
-                SHOP NOW
+                Shop Now
               </button>
             </div>
           </div>

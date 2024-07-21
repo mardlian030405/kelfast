@@ -27,27 +27,42 @@ const Sponsor = () => {
           <div className="mt-8 sm:mt-12">
             <dl className="grid grid-cols-1 gap-4 sm:grid-cols-3">
               <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
-                <Image
-                  src={sponsor1}
-                  alt={`BANNER`}
-                  style={{ width: "100%", height: "auto" }}
-                />
+                <a
+                  href="https://www.instagram.com/sampeyan.motor/"
+                  className="group relative block"
+                >
+                  <Image
+                    src={sponsor1}
+                    alt={`BANNER`}
+                    style={{ width: "100%", height: "auto" }}
+                  />
+                </a>
               </div>
 
               <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
-                <Image
-                  src={sponsor7}
-                  alt={`BANNER`}
-                  style={{ width: "100%", height: "auto" }}
-                />
+                <a
+                  href="https://www.instagram.com/sampeyan.sepeda/"
+                  className="group relative block"
+                >
+                  <Image
+                    src={sponsor7}
+                    alt={`BANNER`}
+                    style={{ width: "100%", height: "auto" }}
+                  />
+                </a>
               </div>
 
               <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
-                <Image
-                  src={sponsor3}
-                  alt={`BANNER`}
-                  style={{ width: "100%", height: "auto" }}
-                />
+                <a
+                  href="https://www.instagram.com/sampeyan.ban/"
+                  className="group relative block"
+                >
+                  <Image
+                    src={sponsor3}
+                    alt={`BANNER`}
+                    style={{ width: "100%", height: "auto" }}
+                  />
+                </a>
               </div>
               <div className="flex flex-col rounded-lg bg-white px-4 py-8 text-center">
                 <Image
@@ -72,11 +87,16 @@ const Sponsor = () => {
                 />
               </div>
               <div className="flex flex-col rounded-lg bg-white px-4 py-8 items-center">
-                <Image
-                  src={sponsor2}
-                  alt={`BANNER`}
-                  style={{ width: "100%", height: "auto" }}
-                />
+                <a
+                  href="https://www.instagram.com/jetmaticshop/#"
+                  className="group relative block"
+                >
+                  <Image
+                    src={sponsor2}
+                    alt={`BANNER`}
+                    style={{ width: "100%", height: "auto" }}
+                  />
+                </a>
               </div>
             </dl>
           </div>

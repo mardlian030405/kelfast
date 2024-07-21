@@ -2,6 +2,7 @@ import ImageSlider from "@/components/ImageSlider";
 import JuaraSlider from "@/components/JuaraSlider";
 import Image from "next/image";
 import juara from "/public/juara.png";
+import logo from "/public/logo.png";
 import blog1 from "/public/blog1.jpg";
 import blog2 from "/public/blog2.jpg";
 
@@ -9,28 +10,35 @@ const Page = () => {
   return (
     <div>
       <ImageSlider />
-      <section className="bg-blue-light">
-        <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-1/2 lg:items-center">
-          <div className="mx-auto max-w-xl text-center">
-            <h1 className="text-3xl text-white font-extrabold sm:text-5xl">
-              Understand User Flow.
-              <strong className="font-extrabold text-yellow-400 sm:block">
-                {" "}
-                Increase Conversion.{" "}
-              </strong>
-            </h1>
+      <section className="bg-blue-dark">
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div className="relative max-md:hidden h-auto overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+              <Image
+                className="absolute inset-0 h-full w-full object-cover"
+                src={logo}
+                alt={`logo`}
+                style={{ width: "100%", height: "100%" }}
+              />
+            </div>
 
-            <p className="mt-4 sm:text-xl/relaxed text-white">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-              illo tenetur fuga ducimus numquam ea!
-            </p>
+            <div className="lg:py-24 max-sm:pt-10 max-sm:text-center">
+              <h1 className="text-2xl font-extrabold sm:text-4xl text-white">
+                PROFESSIONAL FUTSAL TEAM
+              </h1>
+              <h2 className="font-extrabold max-sm:text-center text-3xl sm:text-4xl text-yellow-400 sm:block">
+                KELFAST FC
+              </h2>
 
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
+              <p className="mt-4 sm:text-2xl max-sm:text-center text-lg text-white">
+                OFFICIAL PARTNERS SAMPEYAN GROUP
+              </p>
+
               <a
-                className="block w-full rounded items-center bg-white px-12 py-3 text-sm font-medium text-blue-light shadow hover:bg-blue-light hover:text-white focus:outline-none focus:ring  focus:ring-yellow-400  sm:w-auto"
-                href="#"
+                href="/About"
+                className="mt-8 inline-block rounded bg-white px-12 py-3 text-sm font-medium text-green-800 transition hover:bg-blue-dark hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
               >
-                Get Started
+                OUR TEAM
               </a>
             </div>
           </div>
@@ -40,7 +48,7 @@ const Page = () => {
       <section className="bg-blue-dark">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 max-sm:py-12 lg:px-8">
           <header className="text-center">
-            <h2 className="lg:text-7xl font-bold text-white text-4xl font-serif">
+            <h2 className="lg:text-7xl font-extrabold text-yellow-400 text-4xl">
               CHAMPIONS
             </h2>
           </header>

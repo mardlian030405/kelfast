@@ -5,21 +5,21 @@ export default function HomePage() {
   const cards = [
     {
       id: 1,
-      title: "Card 1",
+      title: "Post 1",
       content:
         "lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw",
       imageUrl: "/juara.png",
     },
     {
       id: 2,
-      title: "Card 2",
+      title: "Post 2",
       content:
         "This is the second card absolute inset-0 h-full w-full object-cover lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw",
       imageUrl: "/blog1.jpg",
     },
     {
       id: 3,
-      title: "Card 3",
+      title: "Post 3",
       content:
         "lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw.",
       imageUrl:
@@ -27,7 +27,7 @@ export default function HomePage() {
     },
     {
       id: 4,
-      title: "Card 1",
+      title: "Post 4",
       content:
         "lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw",
       imageUrl:
@@ -35,14 +35,14 @@ export default function HomePage() {
     },
     {
       id: 5,
-      title: "Card 2",
+      title: "Post 5",
       content:
         "This is the second card absolute inset-0 h-full w-full object-cover lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw",
       imageUrl: "/blog1.jpg",
     },
     {
       id: 6,
-      title: "Card 3",
+      title: "Post 6",
       content:
         "lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus dhgahehbfheahvcvejvfjvjbeahfefwfbwbfbyvuw.",
       imageUrl: "/blog2.jpg",

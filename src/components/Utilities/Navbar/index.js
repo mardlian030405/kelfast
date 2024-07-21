@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import logo from "/public/logo.png";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -12,12 +14,10 @@ const Navbar = () => {
     <header className="bg-blue-dark fixed top-0 left-0 right-0 z-50 shadow-md">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <div className="md:flex md:items-center md:gap-12">
+          <div className="md:flex max-sm:absolute max-sm:left-1/2 transform max-sm:-translate-x-1/2 md:items-center md:gap-12">
             <a className="block text-white" href="/#">
               <span className="sr-only">Home</span>
-              <h1 className="text-2xl font-bold text-white sm:text-3xl">
-                KELFAST FC
-              </h1>
+              <Image src={logo} alt="Logo" width={100} height={100} />
             </a>
           </div>
 
