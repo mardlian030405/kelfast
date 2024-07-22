@@ -7,9 +7,9 @@ const About = () => {
   return (
     <div>
       <section className="bg-blue-dark">
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 max-sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div className="relative h-auto overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+            <div className="relative max-md:hidden h-auto overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
                 src={logo}
@@ -18,21 +18,20 @@ const About = () => {
               />
             </div>
 
-            <div className="lg:py-24 max-sm:pt-10">
-              <h2 className="text-2xl font-bold sm:text-3xl text-white">
+            <div className="lg:py-24 max-sm:pt-10 max-sm:text-center">
+              <h1 className="text-2xl font-extrabold sm:text-4xl text-white">
                 PROFESSIONAL FUTSAL TEAM
-              </h2>
-
-              <h2 className="text-2xl font-bold sm:text-4xl text-white">
+              </h1>
+              <h2 className="font-extrabold max-sm:text-center text-3xl sm:text-4xl text-yellow-400 sm:block">
                 KELFAST FC
               </h2>
 
-              <p className="mt-4 text-xl text-white">
+              <p className="mt-4 sm:text-2xl max-sm:text-center text-lg text-white">
                 OFFICIAL PARTNERS SAMPEYAN GROUP
               </p>
 
               <a
-                href="#"
+                href="/About"
                 className="mt-8 inline-block rounded bg-white px-12 py-3 text-sm font-medium text-green-800 transition hover:bg-blue-dark hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 OUR TEAM

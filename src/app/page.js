@@ -1,10 +1,29 @@
 import ImageSlider from "@/components/ImageSlider";
 import JuaraSlider from "@/components/JuaraSlider";
+import VideoCard from "../components/VideoCard";
 import Image from "next/image";
 import juara from "/public/juara.png";
 import logo from "/public/logo.png";
 import blog1 from "/public/blog1.jpg";
 import blog2 from "/public/blog2.jpg";
+
+const videos = [
+  {
+    videoUrl: "https://www.instagram.com/reel/C59wqZYPATc/embed",
+    title: "Cuplikan Kelfast di Respati CUP",
+    description: "Kelfast meraih juara 2",
+  },
+  {
+    videoUrl: "https://www.instagram.com/reel/Cy5wcemvYjN/embed",
+    title: "Cuplikan Kelfast U16 Rosalia CUP",
+    description: "Kelfast U16 meraih juara 1",
+  },
+  {
+    videoUrl: "https://www.instagram.com/reel/CqXzRSAjag5/embed",
+    title: "Cuplikan Kelfast U20 Ramadhan CUP",
+    description: "Group Stage kelfast meraih 3 point",
+  },
+];
 
 const Page = () => {
   return (
@@ -55,11 +74,19 @@ const Page = () => {
           <JuaraSlider />
         </div>
       </section>
+      <div className="bg-blue-light min-h-auto p-8 flex flex-col items-center">
+        <h1 className="text-4xl font-bold text-white mb-8">VIDEO</h1>
+        <div className="grid grid-cols-3 max-sm:grid-cols-1 justify-center items-center">
+          {videos.map((video, index) => (
+            <VideoCard key={index} {...video} />
+          ))}
+        </div>
+      </div>
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <header className="text-center">
             <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-              New Collection
+              Gallery Kelfast fc
             </h2>
           </header>
 
